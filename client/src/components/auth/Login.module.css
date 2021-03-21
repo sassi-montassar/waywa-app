@@ -1,0 +1,28 @@
+.login{
+    min-height: 85vh;
+}
+
+.login__card{
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.login__info{
+    display: block;
+    margin-top: 1rem !important;
+}
+
+.btn__progress{
+    color: green !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -12px;
+}
+
+@media(max-width: 900px){
+    .login__card{
+        padding: .5rem;
+    }
+}
